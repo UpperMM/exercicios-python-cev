@@ -1,3 +1,3 @@
 valor = int(input("Digite um número: "))
 
-print(f"Analisando o valor, seu antecessor é {valor - 1} e seu sucessor {valor + 1}")
+print(f"Analisando o valor {valor}, seu antecessor é \033[31m{valor - 1}\033[m e seu sucessor \033[32m{valor + 1}\033[m.")

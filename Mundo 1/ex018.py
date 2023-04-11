@@ -7,5 +7,5 @@ cosseno = cos(radians(angulo))
 tangente = tan(radians(angulo))
 
 print(
-    f"O ângulo de {angulo} tem o SENO de {seno:.2f}\nO ângulo de {angulo} tem o COSSENO de {cosseno:.2f}\nO ângulo de {angulo} tem a tangente de {tangente:.2f}"
+    f"O ângulo de {angulo} tem o SENO de \033[32m{seno:.2f}\033[m\nTem o COSSENO de \033[32m{cosseno:.2f}\033[m\nTem a tangente de \033[32m{tangente:.2f}\033[m"
 )

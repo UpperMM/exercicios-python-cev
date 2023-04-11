@@ -5,5 +5,5 @@ area = larg * alt
 tinta = 2
 
 print(
-    f"Sua parede tem a dimensão de {larg}x{alt} e sua área é de {area}m².\nPara pintar essa parede, você precisará de {area/tinta}l de tinta."
+    f"Sua parede tem a dimensão de {larg}x{alt} e sua área é de {area}m².\nPara pintar essa parede, você precisará de \033[32m{area/tinta}l\033[m de tinta."
 )

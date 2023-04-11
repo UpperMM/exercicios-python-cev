@@ -9,4 +9,4 @@ alunos = [aluno1, aluno2, aluno3, aluno4]
 
 sorteio = choice(alunos)
 
-print(f"O sorteado foi {sorteio}.")
+print(f"O sorteado foi \033[32m{sorteio}\033[m.")
