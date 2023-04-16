@@ -9,4 +9,3 @@ pessoas = [nome1, nome2, nome3, nome4]
 shuffle(pessoas)
 
 print(f"A ordem é: \033[32m{pessoas}\033[m.")
-
