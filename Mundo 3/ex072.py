@@ -43,8 +43,7 @@ while True:
     print(f"Você digitou o número {numeros_extenso[numero]}!")
 
     while opcao not in "SN":
-        opcao = str(
-            input("Deseja digitar outro número? [S/N] ")).strip().upper()[0]
+        opcao = str(input("Deseja digitar outro número? [S/N] ")).strip().upper()[0]
 
     if opcao == "N":
         break
