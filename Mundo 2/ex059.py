@@ -1,3 +1,11 @@
+""" Exercício Python 059: Crie um programa que leia dois valores e mostre um menu na tela:
+[ 1 ] somar
+[ 2 ] multiplicar
+[ 3 ] maior
+[ 4 ] novos números
+[ 5 ] sair do programa
+Seu programa deverá realizar a operação solicitada em cada caso. """
+
 from time import sleep
 
 operacao = 0
@@ -5,13 +13,13 @@ operacao = 0
 valor1 = int(input("1º valor: "))
 valor2 = int(input("2º valor: "))
 
-opcoes = """  
+opcoes = """
 Escolha uma opcão:
 
     [1] soma
-    [2] subtração 
+    [2] subtração
     [3] divisão
-    [4] multiplicação 
+    [4] multiplicação
     [5] maior número
     [6] novos números
     [7] sair do programa"""

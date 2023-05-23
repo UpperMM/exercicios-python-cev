@@ -1,3 +1,6 @@
+# Exercício Python 052: Faça um programa que leia um número inteiro e diga
+# se ele é ou não um número primo.
+
 numero = int(input("Digite um número: "))
 num_divisores = 0
 

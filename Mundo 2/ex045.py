@@ -1,3 +1,6 @@
+# Exercício Python 045: Crie um programa que faça o computador jogar
+# Jokenpô com você.
+
 from random import choice
 
 jogada = str(input("Pedra, papel ou tesoura? ")).upper().strip()

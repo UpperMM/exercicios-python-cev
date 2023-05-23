@@ -1,3 +1,6 @@
+# Exercício Python 033: Faça um programa que leia três números e mostre
+# qual é o maior e qual é o menor.
+
 numero1 = int(input("Digite um número: "))
 numero2 = int(input("Digite mais um número: "))
 numero3 = int(input("E mais um: "))

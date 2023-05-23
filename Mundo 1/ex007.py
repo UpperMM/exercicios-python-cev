@@ -1,3 +1,6 @@
+# Exercício Python 007: Desenvolva um programa que leia as duas notas de
+# um aluno, calcule e mostre a sua média.
+
 numero1 = float(input("Digite um número: "))
 numero2 = float(input("Digite outro número: "))
 
