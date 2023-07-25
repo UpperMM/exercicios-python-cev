@@ -15,12 +15,8 @@ for index in expressao:
         else:
             pilha_parenteses.append("erro")
             break
-    
+
 if len(pilha_parenteses) == 0:
     print("A expressão está certa!")
 else:
     print("A expressão está errada!")
-
-
-
-
